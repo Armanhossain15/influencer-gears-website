@@ -57,5 +57,16 @@
     }
     
     /* sponsers end */
+    /* products start */
+    .all-cards {
+      
+        grid-template-columns:  1fr;
+        grid-template-rows: repeat(6, 1fr);
+        gap: 30px;
+    }
+    .rating {
+        flex-direction: row;
+    }
+    /* products end */
 }
 /* responsive for mobile device */

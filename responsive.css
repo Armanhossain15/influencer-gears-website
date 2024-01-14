@@ -1,0 +1,61 @@
+/* responsive for mobile device */
+@media screen and (max-width: 570px){
+    .flex{
+        flex-direction: column;
+    }
+    .width{
+        width: 90%;
+        margin: auto;
+    }
+    /* navbar start*/
+    .menu ul{
+        margin-top: 1em;
+        text-align: center;
+    }
+    .menu ul li {
+        margin-right: 2em;
+        margin-bottom: 1em;
+    }
+    /* navbar end*/
+    /* banner start */
+    .banner{
+        flex-direction: column-reverse;
+        padding: 1em 0 3.1em;
+    }
+    .banner-text{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-text h1{
+        color: #3A3A3A;
+        font-weight: 700;
+        font-size: 2em;
+        line-height: 45px;
+        margin-bottom: 5px;
+    }
+    .banner-text p{
+        width: 100%;
+    }
+    .banner-text button{
+        text-align: center;
+        padding: 10px 24px;
+    }
+    .banner-img{
+        margin-bottom: 30px;
+    }
+    /* banner end */
+    /* sponsers start */
+    .sponsers{
+        flex-wrap: wrap;
+    }
+    .sponsers img{
+        margin-bottom: 22px;
+        padding: 0 10px;
+    }
+    .sponsers #Ebay{
+        width: 45px;
+    }
+    
+    /* sponsers end */
+}
+/* responsive for mobile device */

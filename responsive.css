@@ -42,6 +42,7 @@
     }
     .banner-img{
         margin-bottom: 30px;
+        background-size: contain;
     }
     /* banner end */
     /* sponsers start */

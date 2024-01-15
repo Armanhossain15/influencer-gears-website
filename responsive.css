@@ -67,6 +67,22 @@
     .rating {
         flex-direction: row;
     }
+    .see-more {
+        padding-bottom: 10px;
+    }
     /* products end */
+    /* call to action start  */
+    .call-to-action{
+        padding: 30px 0;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .text{
+        text-align: center;
+    }
+    .text p {
+        width: 90%;
+    }
+    /* call to action end  */
 }
 /* responsive for mobile device */
